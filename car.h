@@ -18,7 +18,7 @@ enum Color {RED, GREEN, BLUE, ORANGE, SILVER, BLACK};
 
 typedef struct CarImplementation* Car;
 
-Car get_car(enum CarType);
+Car get_car(enum CarType car_type);
 enum CarType get_type( Car car);
 enum Color get_color( Car car);
 int  get_fill_level( Car car);
