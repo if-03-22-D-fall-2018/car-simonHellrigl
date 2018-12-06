@@ -24,7 +24,7 @@ enum Color get_color( Car car);
 int  get_fill_level( Car car);
 double get_acceleration_rate( Car car);
 int get_speed(Car car);
-void set_acceleration_rate(Car car, int rate);
+void set_acceleration_rate(Car car, double rate);
 void accelerate(Car car);
 void init();
 
